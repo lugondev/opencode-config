@@ -2,7 +2,7 @@
 description: Specialized test writing agent focused on quality, correctness, and testing actual behavior without hacks or workarounds
 mode: subagent
 temperature: 0.2
-maxSteps: 20
+maxSteps: 30
 tools:
   write: true
   edit: true

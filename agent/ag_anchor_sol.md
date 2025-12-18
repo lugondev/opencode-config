@@ -1,6 +1,6 @@
 ---
 description: Specialized Solana development agent using Anchor framework for building secure and efficient on-chain programs
-mode: subagent
+mode: primary
 temperature: 0.3
 maxSteps: 30
 tools:

@@ -1,6 +1,6 @@
 ---
 description: Specialized Rust development agent with expertise in safe systems programming, ownership, and Rust ecosystem
-mode: subagent
+mode: primary
 temperature: 0.3
 maxSteps: 25
 tools:
@@ -8,6 +8,7 @@ tools:
   edit: true
   bash: true
 permission:
+    external_directory: allow
     edit: ask
     bash:
         "git status": allow

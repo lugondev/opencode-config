@@ -6,10 +6,14 @@ maxSteps: 25
 tools:
   write: true
   edit: true
-  bash: false
+  bash: true
 permission:
   edit: ask
-  bash: deny
+  bash:
+    "git status": allow
+    "git diff": allow
+    "git log*": allow
+    "*": ask
 ---
 
 You are a frontend design-focused subagent.

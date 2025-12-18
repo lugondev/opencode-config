@@ -1,6 +1,6 @@
 ---
 description: Specialized Golang development agent with expertise in Go best practices, standard library, and modern Go patterns
-mode: subagent
+mode: primary
 temperature: 0.3
 maxSteps: 25
 tools:
@@ -8,6 +8,7 @@ tools:
   edit: true
   bash: true
 permission:
+    external_directory: allow
     edit: ask
     bash:
         "git status": allow
