@@ -1,6 +1,6 @@
 ---
 description: Specialized TypeScript/JavaScript development agent for NestJS backend and Next.js frontend with modern React patterns
-mode: primary
+mode: all
 temperature: 0.3
 maxSteps: 25
 tools:
