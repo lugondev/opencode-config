@@ -30,11 +30,26 @@ This repository contains a minimal OpenCode configuration and related agent note
 
 ## Install
 
-Install Node dependencies using one of the following:
+### 1. Clone Repository
 
-- `bun install` (recommended if you use Bun; `bun.lock` is present)
-- `npm install`
-- `pnpm install`
+Clone this repository to your local configuration directory (`~/.config/opencode`):
+
+```bash
+git clone https://github.com/lugondev/opencode-config.git ~/.config/opencode
+```
+
+### 2. Install Dependencies
+
+Navigate to the directory and install dependencies:
+
+```bash
+cd ~/.config/opencode
+bun install
+# or
+npm install
+# or
+pnpm install
+```
 
 ## MCP servers
 
