@@ -9,7 +9,7 @@ tools:
   bash: true
 permission:
     external_directory: allow
-    edit: ask
+    edit: allow
     bash:
         "git status": allow
         "git diff": allow

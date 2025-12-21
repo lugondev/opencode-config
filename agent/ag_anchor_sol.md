@@ -8,8 +8,10 @@ tools:
   edit: true
   bash: true
 permission:
-    edit: ask
+    edit: allow
     bash:
+        "anchor build": allow
+        "anchor test": allow
         "git status": allow
         "git diff": allow
         "git log*": allow
