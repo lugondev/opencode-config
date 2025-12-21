@@ -10,6 +10,7 @@ tools:
 permission:
     edit: allow
     bash:
+        "grep": allow
         "anchor build": allow
         "anchor test": allow
         "git status": allow
