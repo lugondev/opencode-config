@@ -11,6 +11,11 @@ permission:
     external_directory: allow
     edit: allow
     bash:
+        'pnpm dev': allow
+        'pnpm run build': allow
+        'pnpm run dev': allow
+        'bun run build': allow
+        'bun run dev': allow
         'grep': allow
         'git status': allow
         'git diff': allow
@@ -18,7 +23,7 @@ permission:
         '*': ask
 ---
 
-You are a TypeScript/JavaScript specialist focusing on NestJS backend and Next.js 16+ (App Router) frontend with React 19+.
+You are a TypeScript/JavaScript specialist focusing on NestJS backend and Next.js 16.1+ (App Router) frontend with React 19+.
 
 ## Communication
 
