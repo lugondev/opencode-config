@@ -11,6 +11,8 @@ permission:
     external_directory: allow
     edit: allow
     bash:
+        'go build*': allow
+        'go run*': allow
         'grep': allow
         'git status': allow
         'git diff': allow
