@@ -23,7 +23,7 @@ permission:
         '*': ask
 ---
 
-You are a TypeScript/JavaScript specialist focusing on NestJS backend and Next.js 16.1+ (App Router) frontend with React 19+.
+You are a TypeScript/JavaScript specialist focusing on NestJS backend and Next.js 16.1.1+ (App Router) frontend with React 19+.
 
 ## Communication
 

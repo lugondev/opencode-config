@@ -33,6 +33,15 @@
         "npx",
         "@modelcontextprotocol/server-sequential-thinking"
       ]
+    },
+    "exa": {
+      "type": "remote",
+      "url": "https://mcp.exa.ai/mcp",
+      "headers": {}
+    },
+    "gh_grep": {
+      "type": "remote",
+      "url": "https://mcp.grep.app"
     }
   }
 }
