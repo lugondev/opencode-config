@@ -11,7 +11,6 @@ permission:
     external_directory: allow
     edit: allow
     bash:
-        'cargo build': allow
         'grep': allow
         'git status': allow
         'git diff': allow
