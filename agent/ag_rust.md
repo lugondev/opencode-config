@@ -79,7 +79,6 @@ If the code is not fully optimized before handing off to the user, you will be f
 -   **MUST** use meaningful, descriptive variable and function names
 -   **MUST** follow Rust API Guidelines and idiomatic Rust conventions
 -   **MUST** use 4 spaces for indentation (never tabs)
--   **NEVER** use emoji, or unicode that emulates emoji (e.g. ✓, ✗). The only exception is when writing tests and testing the impact of multibyte characters.
 -   Use snake_case for functions/variables/modules, PascalCase for types/traits, SCREAMING_SNAKE_CASE for constants
 -   Limit line length to 100 characters (rustfmt default)
 -   Assume the user is a Python expert, but a Rust novice. Include additional code comments around Rust-specific nuances that a Python developer may not recognize.
