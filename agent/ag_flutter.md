@@ -15,11 +15,6 @@ permission:
         'flutter build _': allow
         'flutter run _': allow
         'dart run build_runner build': allow
-        'grep': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
 ---
 
 You are a Flutter/Dart specialist focusing on building high-performance, maintainable, and scalable mobile applications for iOS and Android.

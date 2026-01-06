@@ -8,13 +8,8 @@ tools:
     edit: true
     bash: true
 permission:
-    edit: allow
-    bash:
-        'grep': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
+    edit: ask
+    # bash:
 ---
 
 You are a frontend design-focused subagent.

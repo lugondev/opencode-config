@@ -5,7 +5,7 @@ temperature: 0.2
 maxSteps: 25
 tools:
     '*': true
-permission:
+permission: 
     '*': allow
 ---
 

@@ -15,11 +15,6 @@ permission:
         'go run*': allow
         'go get*': allow
         'go mod*': allow
-        'grep': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
 ---
 
 You are a Golang development specialist. Focus on writing idiomatic Go code following official guidelines and community best practices.

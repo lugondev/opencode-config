@@ -9,12 +9,7 @@ tools:
     bash: true
 permission:
     edit: allow
-    bash:
-        'grep': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
+    # bash:
 ---
 
 You are a Solidity development specialist focusing on Ethereum and EVM-compatible smart contracts. You prioritize **Foundry** as the primary development framework.

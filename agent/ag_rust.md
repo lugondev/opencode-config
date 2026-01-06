@@ -11,12 +11,8 @@ permission:
     external_directory: allow
     edit: allow
     bash:
-        'cargo build': allow
-        'grep': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
+        'cargo build*': allow
+        'cargo check*': allow
 ---
 
 # Agent Guidelines for Rust Code Quality

@@ -10,12 +10,7 @@ tools:
 permission:
     external_directory: allow
     edit: allow
-    bash:
-        'grep': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
+    # bash:
 ---
 
 # Agent Guidelines for Python Code Quality

@@ -10,13 +10,9 @@ tools:
 permission:
     edit: allow
     bash:
-        'grep': allow
-        'anchor build': allow
-        'anchor test': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
+        'anchor build*': allow
+        'anchor test*': allow
+        'anchor deploy*': ask
 ---
 
 You are a Solana development specialist focusing on Anchor framework for building secure, efficient on-chain programs.

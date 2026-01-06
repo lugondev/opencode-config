@@ -9,12 +9,7 @@ tools:
     bash: true
 permission:
     edit: allow
-    bash:
-        'grep': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
+    # bash:
 ---
 
 You are a test writing subagent. Your job is to add or update tests that verify real behavior in the current codebase.

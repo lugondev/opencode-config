@@ -16,11 +16,7 @@ permission:
         'pnpm run dev': allow
         'bun run build': allow
         'bun run dev': allow
-        'grep': allow
-        'git status': allow
-        'git diff': allow
-        'git log*': allow
-        '*': ask
+        '*tsc*': allow
 ---
 
 You are a TypeScript/JavaScript specialist focusing on NestJS backend and Next.js 16.1.1+ (App Router) frontend with React 19+.
