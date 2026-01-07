@@ -11,6 +11,7 @@ permission:
     external_directory: allow
     edit: allow
     bash:
+        'pnpm add*': allow
         'pnpm dev': allow
         'pnpm run build': allow
         'pnpm run dev': allow
