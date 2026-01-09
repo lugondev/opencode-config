@@ -5,6 +5,8 @@
       "*": "ask",
       "pwd": "allow",
       "ls*": "allow",
+      "jq*": "allow",
+      "sort*": "allow",
       "xargs*": "allow",
       "mkdir*": "allow",
       "find*": "allow",

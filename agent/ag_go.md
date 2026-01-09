@@ -15,6 +15,8 @@ permission:
         'go run*': allow
         'go get*': allow
         'go mod*': allow
+        'go test*': allow
+        'go list*': allow
 ---
 
 You are a Golang development specialist. Focus on writing idiomatic Go code following official guidelines and community best practices.
