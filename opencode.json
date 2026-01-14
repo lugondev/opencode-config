@@ -19,8 +19,9 @@
       "head*": "allow",
       "grep*": "allow",
       "ps*": "allow",
-      "git status": "allow",
-      "git diff": "allow",
+      "*tsc*": "allow",
+      "git status*": "allow",
+      "git diff*": "allow",
       "git log*": "allow",
       "git grep*": "allow",
       "gh repo view*": "allow",
@@ -76,5 +77,8 @@
       "type": "remote",
       "url": "https://mcp.grep.app"
     }
+  },
+  "keybinds": {
+    "messages_last": "ctrl+shift+g,end"
   }
 }
