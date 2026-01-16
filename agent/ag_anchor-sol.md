@@ -10,6 +10,8 @@ tools:
 permission:
     edit: allow
     bash:
+        'pkill -f solana-test-validator*': allow
+        'solana cluster-version*': allow
         'anchor build*': allow
         'anchor test*': allow
         'anchor deploy*': ask
