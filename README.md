@@ -8,6 +8,21 @@ This repository contains a minimal OpenCode configuration and related agent note
 -   `agent/`: Agent guidance and prompts.
 -   `package.json`: Node dependency for OpenCode plugins.
 
+## AI Coding Skills
+
+AI coding skills that enhance developer productivity. See [awesome-solana-ai](https://github.com/solana-foundation/awesome-solana-ai) for more resources.
+
+### Solana Development
+
+-   [solana-dev-skill](skills/solana-dev-skill/) - End-to-end Solana development skill. Covers wallet connections (wallet-standard-first), Anchor/Pinocchio programs, Codama-based client generation, testing with LiteSVM/Mollusk/Surfpool, and security best practices. Prefers `@solana/kit` for new client code.
+-   [solana-anchor-claude-skill](skills/solana-anchor-claude-skill/) - End-to-end Solana development for Anchor and Solana Kit, focusing on modern, minimal, readable code. Testing with native JS test runners or LiteSVM.
+
+### Debugging & Development
+
+-   [be-debug-skill](skills/be-debug-skill/) - Backend debugging skill for systematic issue diagnosis and resolution.
+-   [fe-skill](skills/fe-skill/) - Frontend development skill for UI implementation.
+-   [web3-debug-skill](skills/web3-debug-skill/) - Web3-specific debugging for blockchain and smart contract issues.
+
 ## Agents
 
 ### Development Agents
@@ -24,6 +39,8 @@ This repository contains a minimal OpenCode configuration and related agent note
 -   `sag_frontend-design.md`: Frontend UI/UX implementation
 -   `sag_review.md`: Code review and optimization
 -   `sag_write_testcase.md`: Test generation and validation
+-   `sag_audit.md`: Code quality and security audit
+-   `sag_force.md`: Autonomous task execution agent
 
 ## Requirements
 
